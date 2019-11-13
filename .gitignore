@@ -1,0 +1,11 @@
+.idea
+
+# dependencies
+/node_modules
+
+# Webpack output
+dist
+
+# Misc
+version
+.vscode

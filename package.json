@@ -1,0 +1,55 @@
+{
+    "name": "front-end-POC",
+    "version": "1.0.0",
+    "description": "## Clone of the project",
+    "main": "webpack.config.js",
+    "scripts": {
+        "start": "webpack-dev-server --config webpack.config.js --progress --colors --open --mode=development"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "7.4.4",
+        "@babel/plugin-proposal-class-properties": "7.4.4",
+        "@babel/plugin-proposal-object-rest-spread": "7.4.4",
+        "@babel/preset-env": "7.4.4",
+        "@babel/preset-react": "^7.0.0",
+        "@babel/preset-typescript": "7.3.3",
+        "@types/react-router-redux": "^5.0.18",
+        "@types/redux-logger": "^3.0.7",
+        "babel-loader": "8.0.6",
+        "babel-polyfill": "^6.26.0",
+        "fork-ts-checker-webpack-plugin": "1.3.3",
+        "html-webpack-plugin": "3.2.0",
+        "typescript": "3.4.5",
+        "webpack": "4.31.0",
+        "webpack-cli": "^3.3.2",
+        "webpack-dev-server": "^3.4.1"
+    },
+    "dependencies": {
+        "@material-ui/core": "^4.1.1",
+        "@types/react": "^16.8.24",
+        "@types/react-bootstrap": "^0.32.19",
+        "@types/react-dom": "^16.8.4",
+        "@types/react-redux": "^7.1.1",
+        "@types/redux": "^3.6.0",
+        "@types/styled-components": "^4.1.16",
+        "bootstrap": "^3.3.7",
+        "react": "^16.8.6",
+        "react-bootstrap": "^1.0.0-beta.9",
+        "react-dom": "^16.8.6",
+        "react-redux": "^7.1.0",
+        "react-router-redux": "^4.0.8",
+        "redux": "^4.0.4",
+        "redux-logger": "^3.0.6",
+        "redux-saga": "^1.0.5",
+        "reselect": "^4.0.0",
+        "styled-components": "^4.3.1",
+        "tslint": "^5.18.0",
+        "typed-redux-kit": "^1.0.2"
+    }
+}
